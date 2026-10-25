@@ -51,16 +51,16 @@ select,input,textarea{background:var(--surface);border:1px solid var(--line);bor
 .btn.sm{padding:5px 10px;font-size:.85rem}
 
 /* hero */
-.hero{background:var(--ink);color:var(--bg);border-radius:18px;padding:22px 22px 18px;display:grid;gap:14px;position:relative;overflow:hidden}
-:root .hero{--h-muted:color-mix(in srgb,var(--bg) 70%,transparent)}
-.hero .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--sun);font-weight:700}
+.hero{background:var(--sun);color:var(--sun-ink);border-radius:18px;padding:22px 22px 18px;display:grid;gap:14px;position:relative;overflow:hidden}
+:root .hero{--h-muted:color-mix(in srgb,var(--sun-ink) 72%,transparent)}
+.hero .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--sun-ink);font-weight:700}
 .hero h1{font-size:clamp(1.7rem,4.5vw,2.6rem);font-weight:800;line-height:1.05}
 .hero .meta{color:var(--h-muted);display:flex;gap:16px;flex-wrap:wrap;font-size:.92rem}
 .hero .count{position:absolute;right:22px;top:18px;text-align:right}
-.hero .count b{font-family:var(--f-display);font-size:2.6rem;line-height:1;color:var(--sun);display:block}
+.hero .count b{font-family:var(--f-display);font-size:2.6rem;line-height:1;color:var(--sun-ink);display:block}
 .hero .count span{font-size:.78rem;color:var(--h-muted);text-transform:uppercase;letter-spacing:.08em}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{border:1px solid color-mix(in srgb,var(--bg) 30%,transparent);border-radius:99px;padding:2px 10px;font-size:.82rem}
+.chip{border:1px solid color-mix(in srgb,var(--sun-ink) 35%,transparent);border-radius:99px;padding:2px 10px;font-size:.82rem}
 @media (max-width:560px){.hero .count{position:static;text-align:left}}
 
 .sample{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:color-mix(in srgb,var(--sun) 18%,var(--surface));border:1px dashed var(--sun);border-radius:10px;padding:8px 12px;margin-bottom:12px;font-size:.9rem}
